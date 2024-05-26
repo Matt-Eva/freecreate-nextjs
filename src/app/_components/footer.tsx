@@ -7,6 +7,7 @@ function Footer() {
         <Link href="/">🔍</Link>
         <Link href="/read">📖</Link>
         <Link href="/library">♥</Link>
+        <Link href="/write">✎</Link>
       </nav>
     </footer>
   );
