@@ -19,11 +19,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="en" className="h-full">
+      <body className="h-full">
         <Header />
-        <Sidebar />
-        {children}
+        <main className="fixed h-full top-6 bg-blue-100 sm:flex sm:mb-0 ">
+          <Sidebar />
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
